@@ -51,4 +51,29 @@ let myObj = {
 
    // DataType pata karne ke liye
     console.log(typeof myFunction);//iska DataType function object bolte hain ---read ECMA typeof
+
+
+    //++++++++++++++++++++++++++++++++++++++++++MEMORY++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    //Stack(primitive)   ,    Heap(non-primitive)
+
+    let myYouTubeName = "gareebAadmi"
+    anotherName = "Chai aur code"
+
+    let anotherName = myYouTubeName
+
+    console.log(myYouTubeName);
+    console.log(anotherName);
+
+    let user = {
+          email: "user@google.ocm"
+          upi: "user@yptl"
+    }
+
+    let user2 = user
+     user2.email = "satya@gmail.com"
+
+     console.log(user.email);
+     console.log(user2.email);
+     
     
