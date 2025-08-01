@@ -1,6 +1,6 @@
 let myDate = new Date()
 // console.log(myDate.toString());
-//  console.log(myDate.toDateString);  //day+date
+//  console.log(myDate.toDateString());  //day+date
 // console.log(myDate.toISOString());
 //console.log(myDate.toLocaleString());     //Date+time
 //console.log(myDate.toLocaleDateString()); // Date
